@@ -4,26 +4,26 @@
 
 // let a; // Definition oder Deklaration
 
-// // Wertzuweisung / Assignment 
+// // // Wertzuweisung / Assignment 
 // a = 2; // number 
 // a = true; // boolean (true, false)
 // a = "Hallo"; // string 
 
-//  console.log(typeof a);
-//  console.log(a);
+//   console.log(typeof a);
+//   console.log(a);
 
 /* Arrays */
 // Navigation über INDEX
 
-// let arr;
+ let arr;
 // // // // // arr = new Array();  // Möglichkeit
-// arr = [false,true,true,false];
-// console.log(arr);
-// console.log(arr[0]);
-// console.log(arr[3]);
-// console.log(arr.length);
-// console.log(arr[arr.length-1]);
-// console.log(arr[5]);
+arr = [false,true,true,false];
+console.log(arr);
+console.log(arr[0]);
+console.log(arr[3]);
+console.log(arr.length);
+console.log(arr[arr.length-1]);
+console.log(arr[5]);
 
 
 /* Daten-Objekte */
