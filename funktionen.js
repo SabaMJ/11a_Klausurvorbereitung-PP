@@ -15,16 +15,114 @@
 /* Arrays */
 // Navigation über INDEX
 
- let arr;
-// // // // // arr = new Array();  // Möglichkeit
-arr = [false,true,true,false];
-console.log(arr);
-console.log(arr[0]);
-console.log(arr[3]);
-console.log(arr.length);
-console.log(arr[arr.length-1]);
-console.log(arr[5]);
+//  let arr;
+// // // // // // arr = new Array();  // Möglichkeit
+//  arr = [false,true,true,false];
+// console.log(arr);
+// console.log(arr[0]);
+// console.log(arr[3]);
+// console.log(arr.length);
+// console.log(arr[arr.length-1]);
+//  console.log(arr[5]);
 
+//---------------Saba ----------------//
+// let testArr;
+// testArr = ["Saba", "Sara", "Sorayya", "Jana"];
+// console.log(testArr[testArr.length-1]);
+
+// var struc =
+// {
+//   level1:
+//   {
+//     level2:
+//     {
+//       param1: 3.14,
+//       param2: 10.01
+//     }
+//   }
+// };
+// console.log(struc.level1.level2.param1);
+
+
+    //  let a= 231;
+    //  let b = 18;
+    // // let operation = "summe";
+
+    
+    //  //  Summe
+    // function summe(a, b) {
+    //     return a + b;
+        
+    // }
+    // s = summe(a, b);
+
+    // //  Differenz
+    // function differenz(a, b) {
+    //     return a - b;
+    // }
+    // d= differenz(a, b);
+    // // rechner
+    // function rechner(a, b ,operation) {
+    //     //let ergebnis;
+
+    //     switch (true) {
+    //         case operation == "summe":
+    //             return s;
+
+    //         case operation == "differenz" :
+    //             return d;
+        
+    //         default: 
+    //             return "Exception!";
+                 
+    //     }
+    
+    // }
+    // // r = rechner(a, b ,"summe");
+    // // r = rechner(a , b  ,"differenz");
+    // // r = rechner(a, b ,"Hallo");
+    //  console.log("Das Ergebnis lautet: X: " + r);
+
+    
+
+    let a = 20 ;
+    let b = 12;
+    
+      //Funktion Summe 
+       function summe(a, b) {
+            return a + b;
+        }
+        s= summe (a ,b)
+        
+        // Produkt Muliplikation
+        function produkt(a, b) {
+            return a * b;
+        }
+        p = produkt (a, b)
+        
+        // rechner
+        function rechner(a, b ,operation) {
+    
+            switch (true) {
+                case operation == "summe":
+                    return s;
+    
+                case operation == "produkt" :
+                    return p;
+            
+                default: 
+                    return "Exception!";
+                     
+            }
+        
+        }
+        //  s = rechner(a, b ,"summe");
+        // s = rechner(a, b ,"produkt");
+        s = rechner(a, b ,"Hallo");
+         console.log("Das Ergebnis lautet: X: " + s);
+
+af
+//---------------Saba ----------------//
 
 /* Daten-Objekte */
 // Navigation über Bezeichner (keys)
